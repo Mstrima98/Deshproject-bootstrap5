@@ -47,7 +47,7 @@
                          <a class="nav-link active" aria-current="page" href="#"></a>
                       </li>
                       <li class="nav-item">
-                         <a class="nav-link active" aria-current="page" href="#">Product Catalog</a>
+                         <a class="nav-link active" aria-current="page" href="./pages/product-catalog.html">Product Catalog</a>
                       </li>
                       <li class="nav-item">
                          <a class="nav-link active" aria-current="page" href="#">Pricing</a>
@@ -73,9 +73,9 @@
                       </li>
                       <div class="ms-lg-5 ms-md-3 d-flex">
                           <li class=" login">
-                             <a class="nav-link active" aria-current="page" href="#">Login</a>
+                             <a class="nav-link active" aria-current="page" href="./pages/login.html">Login</a>
                          </li>
-                         <div class="ms-3 Sign"><a href="#">Sign up</a></div>
+                         <div class="ms-3 Sign"><a href="./pages/signin.html">Sign up</a></div>
                       </div>
                   </ul>   
               </div>
@@ -108,8 +108,23 @@
           <div class="section1 col-lg-7 col-md-12 col-12 mt-4">
              <div class="d-flex">
                  <div class="long"><img src="./images/img1.png" alt="" style="height: 450px; ">
-                   <div class="slide-img">
-                      
+                   <div class="slide-img ">
+                       <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+                          <div class="carousel-inner">
+                             <div class="carousel-item active">
+                               <img src="./images/img2.png" class="d-block w-100" alt="..." style="height: 300px; ">
+                             </div>
+                             <div class="carousel-item">
+                               <img src="./images/img_10.png" class="d-block w-100" alt="..." style="height: 250px; ">
+                             </div>
+                             <div class="carousel-item">
+                               <img src="./images/img_6.png" class="d-block w-100" alt="..." style="height: 200px; ">
+                             </div>
+                             <div class="carousel-item">
+                               <img src="./images/img_2.png" class="d-block w-100" alt="..." style="height: 250px; ">
+                             </div>
+                          </div>
+                      </div>
                    </div>
                </div>
              </div>   
@@ -153,15 +168,21 @@
                  <p>Once an order is placed, we print, pack <br> and ship to your customer under your <br> brand.</p>
               </div>
            </div>
-           <div class="col-12 col-lg-2 svg-pic d-flex ">
-             <div><svg width="239" height="38" viewBox="0 0 239 38" fill="none" xmlns="http://www.w3.org/2000/svg">
-               <path d="M0.999891 23.5326C29.1871 -2.45993 73.9862 44.4464 106.167 35.8516C130.735 29.2898 147.997 8.25388 172.696 2.47797C193.861 -2.47164 217.824 4.9901 238.255 10.4644" stroke="#6ca732" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="4 4"/>
-               </svg></div>
-             <div>
-               <svg width="273" height="65" viewBox="0 0 273 65" fill="none" xmlns="http://www.w3.org/2000/svg">
-               <path d="M0.564217 27.4379C5.80207 20.999 11.123 14.0824 17.4133 8.61905C27.1093 0.197714 40.4927 -0.839506 52.0112 4.00419C75.6295 13.936 91.6116 36.2385 115.236 46.4206C138.232 56.3316 167.802 53.7894 188.179 38.97C192.975 35.4816 197.953 31.3178 198.278 24.9749C198.616 18.3963 194.477 14.0313 189.844 9.96523C180.711 1.95081 167.424 4.84301 162.535 16.0264C156.74 29.2804 163.746 44.8819 173.308 54.4443C177.884 59.0198 182.912 62.7441 189.515 63.4696C201.545 64.7913 214.006 58.8144 223.945 52.7513C242.204 41.613 257.606 27.0595 271.987 11.4039" stroke="#6ca732" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="4 4"/>
-               </svg></div>
-           </div>
+           sv
+
+           <!-- svg line -->
+           <div class="svg-pic col-12 col-lg-2     position-absolute start-0 bottom-0       d-flex justify-content-center align-items-center"> <!--১.পজিশন আর হাইট/উইডথ করে পেরেন্ট রো এর সমান করেছি। ২.ফ্লেক্স করে চাইল্ড ২টাকে মাঝে এনেছি। এনে দুইটাকে ঠিকমতো গ্যাপ দিয়েছি css দিয়ে -->
+              <span>
+                <svg width="250" height="70" viewBox="0 0 239 38" fill="none" xmlns="http://www.w3.org/2000/svg">
+                   <path d="M0.999891 23.5326C29.1871 -2.45993 73.9862 44.4464 106.167 35.8516C130.735 29.2898 147.997 8.25388 172.696 2.47797C193.861 -2.47164 217.824 4.9901 238.255 10.4644" stroke="#6ca732" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="4 4"/>
+                </svg>
+             </span>
+             <span>
+                <svg width="250" height="70" viewBox="0 0 273 65" fill="none" xmlns="http://www.w3.org/2000/svg">
+                   <path d="M0.564217 27.4379C5.80207 20.999 11.123 14.0824 17.4133 8.61905C27.1093 0.197714 40.4927 -0.839506 52.0112 4.00419C75.6295 13.936 91.6116 36.2385 115.236 46.4206C138.232 56.3316 167.802 53.7894 188.179 38.97C192.975 35.4816 197.953 31.3178 198.278 24.9749C198.616 18.3963 194.477 14.0313 189.844 9.96523C180.711 1.95081 167.424 4.84301 162.535 16.0264C156.74 29.2804 163.746 44.8819 173.308 54.4443C177.884 59.0198 182.912 62.7441 189.515 63.4696C201.545 64.7913 214.006 58.8144 223.945 52.7513C242.204 41.613 257.606 27.0595 271.987 11.4039" stroke="#6ca732" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="4 4"/>
+                </svg>
+             </span>
+          </div>
        </div>
     </div>
 </section>
@@ -177,29 +198,83 @@
           </div>
         </div>
         <div class="row mt-5">
-          <div class="mens col-12 col-lg-2 col-md-6 col-sm-12 text-center">
-               <img class="Clothing" src="./images/womens-clothing-1.webp" alt="" style="height: 200px; width: 180px;">
-               <p class="mt-4">Women's Clothing</p>
+          <div class="mens col-12 col-lg-2 col-md-6 col-sm-12 ">
+              <div id="carouselExampleSlidesOnly" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <img class="Clothing" src="./images/womens-clothing-1 (1).webp" class="d-block w-100" alt="..."style=" height: 200px; width: 160px;" >
+                    </div>
+                    <div class="carousel-item">
+                      <img class="Clothing" src="./images/womens-clothing.webp" class="d-block w-100" alt="..." style=" height: 200px; width: 160px;">
+                    </div>
+                 </div>
+              </div>
+               <p class="mt-4 ps-5 ">Women's Clothing</p>
           </div> 
           <div class="mens col-12 col-lg-2 col-md-6 col-sm-12 text-center">
-             <img class="Clothing" src="./images/mens-clothing-1.webp" alt="" style="height: 200px; width: 180px;">
-             <p  class="mt-4">Men's Clothing</p>
+              <div id="carouselExampleSlidesOnly" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <img class="Clothing" src="./images/mens-clothing-1.webp" class="d-block w-100" alt="..." style=" height: 200px; width: 160px;">
+                    </div>
+                    <div class="carousel-item">
+                      <img class="Clothing" src="./images/mens-clothing.webp" class="d-block w-100" alt="..."style=" height: 200px; width: 160px;">
+                    </div>
+                </div>
+             </div>
+              <p  class="mt-4 ps-5">Men's Clothing</p>
           </div> 
           <div class="mens col-12 col-lg-2 col-md-6 col-sm-12 text-center">
-             <img class="Clothing" src="./images/kids-clothing-1.webp" alt="" style="height: 200px; width: 180px;">
-             <p  class="mt-4">kid's Clothing</p>
+             <div id="carouselExampleSlidesOnly" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <img class="Clothing" src="./images/kids-clothing-1.webp" class="d-block w-100" alt="..." style=" height: 200px; width: 160px;">
+                    </div>
+                    <div class="carousel-item">
+                      <img class="Clothing" src="./images/kids-clothing.webp" class="d-block w-100" alt="..." style=" height: 200px; width: 160px;">
+                    </div>
+                </div>
+             </div>
+              <p  class="mt-4 ps-5">kid's Clothing</p>
           </div> 
           <div class="mens col-12 col-lg-2 col-md-6 col-sm-12 text-center">
-             <img class="Clothing" src="./images/canvas-1.webp" alt="" style="height: 200px; width: 180px;">
-             <p  class="mt-4">Wall Art</p>
+              <div id="carouselExampleSlidesOnly" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <img class="Clothing" src="./images/canvas-1.webp" class="d-block w-100" alt="..." style=" height: 200px; width: 160px;">
+                    </div>
+                    <div class="carousel-item">
+                      <img class="Clothing" src="./images/canvas.webp" class="d-block w-100" alt="..." style=" height: 200px; width: 160px;">
+                    </div>
+                </div>
+             </div>
+              <p  class="mt-4 ps-5">Wall Art</p>
           </div> 
           <div class="mens col-12 col-lg-2 col-md-6 col-sm-12 text-center">
-             <img class="Clothing" src="./images/necklace-1.webp" alt="" style="height: 200px; width: 180px;">
-             <p  class="mt-4">Jelary</p>
+              <div id="carouselExampleSlidesOnly" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <img class="Clothing" src="./images/necklace-1.webp" class="d-block w-100" alt="..." style=" height: 200px; width: 160px;">
+                    </div>
+                    <div class="carousel-item">
+                      <img class="Clothing" src="./images/necklace.webp" class="d-block w-100" alt="..." style=" height: 200px; width: 160px;">
+                    </div>
+                </div>
+              </div>
+              <p  class="mt-4 ps-5">Jelary</p>
           </div>
           <div class="mens col-12 col-lg-2 col-md-6 col-sm-12 text-center">
-             <img class="Clothing" src="./images/tumblers-1.webp" alt="" style="height: 200px; width: 180px;">
-             <p  class="mt-4">Tumblers</p>
+             <div id="carouselExampleSlidesOnly" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <img class="Clothing" src="./images/tumblers-1 (1).webp" class="d-block w-100" alt="..." style=" height: 200px; width: 160px;">
+                    </div>
+                    <div class="carousel-item">
+                      <img class="Clothing" src="./images/tumblers.webp" class="d-block w-100" alt="..." style=" height: 200px; width: 160px;">
+                    </div>
+                </div>
+             </div>
+             <p  class="mt-4 ps-5">Tumblers</p>
           </div>
         </div>
     <div class="view text-center mt-5 ">    
@@ -278,9 +353,76 @@
     </div>
 </section>
 
-<!-- section -->
-<section id="active" class=" active-section-padding">
-    <div class="linear">
+<!-- section5 -->
+<section id="active"class="active-section-padding my-5" >
+   <div class="container">
+      <div class="row">
+         <div class=" col-12 col-lg-6 col-md-12 col-sm-12 ">
+            <div class="backround">
+               <div class="backround1"><a  href="./images/video.mp4" style="height: 300px; width: 450px;"><img class="ms-lg-5" src="./images/hiw-video-thumb.webp" alt="" height="300px" width="450px"></a>
+                  <div class="play-button "><a href="./images/video.mp4"><svg class="m-3" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="40" height="40"><path fill="none" d="M0 0h24v24H0z"/><path d="M19.376 12.416L8.777 19.482A.5.5 0 0 1 8 19.066V4.934a.5.5 0 0 1 .777-.416l10.599 7.066a.5.5 0 0 1 0 .832z" fill="#001f3f"/></svg></a></div>
+               </div>
+            </div>
+            <div class="arrow">
+               <svg xmlns="http://www.w3.org/2000/svg" width="106.253" height="56.258" viewBox="0 0 106.253 56.258"><path id="Path_263" data-name="Path 263" d="M6.229,51.784C28,14.042,64.625-.8,107.229,3.284M2.771,45.352c1.652,4.064-.345,7.9.445,12.021,2.62-1.841,8.1-5.334,11.474-5.418" transform="translate(-1.794 -1.865)" fill="none" stroke="rgba(0,31,63,0.31)" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1.5"/></svg>
+               <div class="arrow1">Watch our video!</div>
+            </div>
+         </div>
+         <div class="Awkward col-12 col-lg-6 col-md-12 col-sm-12 mt-4">
+             <h2 class=" ps-lg-5 mt-5">How Awkward Styles print-on- <br>demand works</h2>
+             <p class="ps-lg-5 my-4">Discover the process of print-on-demand & dropshipping <br> with Awkward Styles.
+                Learn how we fulfill your orders and <br> ship them to your customers.</p>
+                <a class="ps-lg-5 mt-5" href="">See how it works<i class="fa-solid fa-arrow-right m-2"></i></a>
+         </div>
+      </div>
+   </div>
+</section>
+
+<!-- section6 -->
+<section id="active" class=" active-section-padding my-5">
+   <div class="container">
+      <div class="row">
+         <div class="connect col-12 col-lg-6 col-md-12 col-sm-12 mt-5 d-flex justify-content-center align-items-center">
+            <div class="connect-wrapper">
+               <h3>Connect Your Store</h3>
+               <p class="mt-4">Connect your store with leading <br>
+               e-commerce platforms</p>
+            </div>
+         </div>
+         <div class="connect1  col-12 col-lg-6 col-md-12 col-sm-12 mt-5">
+           <div class="connect2">
+               <div class="line-1">
+                  <svg width="500" height="500" viewBox="0 0 500 500" fill="none" xmlns="http://www.w3.org/2000/svg">
+                     <circle cx="250" cy="250" r="249.5" stroke="black"/>
+                  </svg>
+               </div>
+               <div class="line-2">
+                  <svg width="500" height="500" viewBox="0 0 500 500" fill="none" xmlns="http://www.w3.org/2000/svg">
+                     <circle cx="250" cy="250" r="249.5" stroke="black"/>
+                  </svg>
+               </div>
+               <div class="line-3">
+                  <svg width="500" height="500" viewBox="0 0 500 500" fill="none" xmlns="http://www.w3.org/2000/svg">
+                     <circle cx="250" cy="250" r="249.5" stroke="black"/>
+                  </svg>
+               </div>
+             </div>
+             <div class="connect-3 position-relative">
+                <img src="./images/awkwardstyles-logo (1).svg" alt="" style="" class="round-logo position-absolute ">
+                <img src="./images/circle-shopify.svg" class="round-shopify" alt="">
+                <img src="./images/circle-woocommerce.svg" class="round-woocommerce" alt="">
+                <img src="./images/circle-etsy.svg" class="round-etsy" alt="">
+                <img src="./images/circle-order-desk.png" alt=""class="round-order-desk">
+                <img src="./images/circle-custom-api.svg" alt=""class="custom-api">
+             </div>
+           </div>
+        </div>
+     </div>
+  </div>
+</section>
+<!-- section 7 -->
+<section id="active" class="linear2 active-section-padding">
+    <div class="linear pt-5">
        <div class="container gidiant ">
            <div class="row ">
               <div class="col-md-12 ">
@@ -290,12 +432,81 @@
                  </div>
               </div>
            </div>
-           <div class="row">
-              <div class="col-12 col-lg-4 col-md-6 col-sm-12 bg-white">
-                 <div>
-                    <div><i class="fa-solid fa-quote-left"></i></div>
+           <div class="row mt-5">
+              <div class="col-12 col-lg-4 col-md-6 col-sm-12 ">
+                 <div class="bg-white cliping p-4">
+                    <div class="mb-2"><i class="fa-solid fa-quote-left"></i></div>
+                    <p class="">We developed a great partnership with Awkward Styles and we appreciate 
+                     their attention to detail and creative <a href="#">Read more</a></p>
+                    <div class="cliping-path bg-white"></div>
+                 </div>
+                 <div class="d-flex path mt-4">
+                    <div><img class="ms-4" src="./images/teefury.svg" alt=""></div>
+                    <div class="path2">
+                     <h6>Teodor W.</h6>
+                      <p>Head of Artist Services</p>
+                    </div>
                  </div>
               </div>
+              <div class="col-12 col-lg-4 col-md-6 col-sm-12 ">
+                <div class="bg-white cliping p-4">
+                   <div class="mb-2"><i class="fa-solid fa-quote-left"></i></div>
+                   <p class="">I would highly recommend Awkward Styles as they were extremely professional and helpful throughout the
+                    <a href="#">Read more</a></p>
+                   <div class="cliping-path bg-white"></div>
+                </div>
+                <div class="path mt-4">
+                   <div class="path3 ">
+                      <h6 class="">Dreamtees</h6>
+                   </div>
+                </div>
+             </div>
+             <div class="col-12 col-lg-4 col-md-6 col-sm-12  ">
+                 <div class="bg-white cliping p-4">
+                    <div class="mb-2"><i class="fa-solid fa-quote-left"></i></div>
+                     <p class="">We developed a great partnership with Awkward Styles and we appreciate 
+                     their attention to detail and creative <a href="#">Read more</a></p>
+                   <div class="cliping-path bg-white"></div>
+                 </div>
+                 <div class="d-flex path mt-4">
+                    <div><img class="ms-4" src="./images/talister.svg" alt="" style="height: 20px; width: 80px;"></div>
+                    <div class="path4">
+                       <h6>Nina X.</h6>
+                       <p>Account Manager</p>
+                    </div>
+                 </div>
+              </div>
+           </div>
+       </div>
+       <div class="overflow">
+          <div class="container">
+             <div class="row mt-5 ">
+                 <div class="col-md-12 ">
+                   <div class=" leaders siction-header text-center mt-5">
+                      <p class="pb-2">TRUSTED BY</p>
+                   </div>
+                </div>
+             </div>
+             <div class="row pb-">
+                 <div class=" col-12 col-lg-2 col-md-6 col-sm-6  my-md-3 my-sm-3">
+                    <img src="./images/nickelodeon.svg" alt="" style="height: 20px; width: 100px;">
+                 </div>
+                 <div class=" col-12 col-lg-2 col-md-6 col-sm-6 my-md-3 my-sm-3">
+                   <img src="./images/smartstudy.png" alt="" style="height: 20px; width: 100px;">
+                 </div>
+                 <div class=" col-12 col-lg-2 col-md-6 col-sm-6 my-md-3 my-sm-3">
+                   <img src="./images/wayfair.svg" alt="" style="height: 20px; width: 100px;">
+                 </div>
+                 <div class=" col-12 col-lg-2 col-md-6 col-sm-6 my-md-3 my-sm-3">
+                   <img src="./images/don-clemente.png" alt="" style="height: 40px; width: 120px;">
+                 </div>
+                 <div class=" col-12 col-lg-2 col-md-6 col-sm-6 my-md-3 my-sm-3">
+                   <img src="./images/homechef.svg" alt="" style="height: 40px; width: 100px;">
+                 </div>
+                 <div class=" col-12 col-lg-2 col-md-6 col-sm-6 my-md-3 my-sm-3">
+                   <img src="./images/pfizer-logo.svg" alt="" style="height: 40px; width: 100px;">
+                 </div>
+             </div>  
            </div>
        </div>
     </div>
