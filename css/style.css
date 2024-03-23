@@ -483,9 +483,6 @@ margin-top: 15px;
     font-size: 25px;
     color: #4d5156;
 }
-.footer7{
-  
-}
 
 /* signup section */
 .sign-up1 p a{
@@ -657,3 +654,392 @@ margin-top: 15px;
 
 /* sideber */
 
+/* img design */
+.img-holder{
+    overflow: hidden;
+}
+.img-holder img{
+    transition: all 1.5s ease;
+}
+.img-holder img:hover{
+    transform: scale(1.1);
+   
+}
+.card-holder:hover{
+    box-shadow: 0 8px 8px 0 rgba(187, 207, 178, 0.2), 0 6px 20px 0 rgba(187, 207, 178, 0.2);
+}
+.card-body p{
+    font-size: 20px;
+    
+}
+
+/* section3 */
+.productes1 span{
+    font-size: 25px;
+    color: #80a43f;
+}
+.productes1 h2{
+    font-size: 50px;
+}
+.productes1 p{
+    color: #a19faf;
+    font-size: 20px;
+}
+.productes1 a{
+    color: #a19faf;
+    font-size: 22px;
+}
+ /* accordin */
+
+ .accordion-item{
+    border: none;
+    position: relative;
+ }
+ .accordion-item:hover{
+    content: "";
+    background-color: #fff;
+    border: none ;
+ }
+ 
+
+ .accordion-button{
+    background-color: #fff !important;
+    color: black;
+    position: relative;
+   box-shadow:  0 8px 8px 0 rgba(244, 214, 214, 0.2), 0 6px 20px 0 rgba(246, 225, 225, 0.2);
+   border: none;
+ }
+ .accordion-button h6{
+    color:black;
+ }
+ .accordion-body p{
+    color: #4d5156;
+    box-shadow:0 8px 8px 0   rgba(246, 225, 225, 0.2) ;
+    font-size: 18px;
+    width: 100%;
+   
+ }
+
+ .accordion-button:active,  .accordion-button:focus{
+    border: none;
+ }
+ .accordion-button:hover{
+   background-color: #fff;
+   color: black;
+  
+ }
+ .accordion-body{
+    border: none;
+ }
+ 
+
+
+/* pricing */
+/* section1 */
+
+.backround-img3{
+    width: 100%;
+   
+    border-radius: 10px;
+    background: linear-gradient(90deg, #f3c53c 0%, rgba(235, 235, 139, 0.867) 100%);
+   
+}
+.rocket1 p{
+    color: #4d5156;
+    font-size: 18px;
+}
+
+.rocket1 p span{
+    color: black;
+}
+.rocket1 h2{
+    color: #42493a;
+    font-size: 40px;
+}
+.switch input{
+   border: none;
+   height: 20px; 
+ 
+}
+.switch label{
+    color: black;
+    font-weight: bold;
+}
+.switch1 p{
+    color: black;
+    font-weight: bold;
+}
+.switch label a{
+ text-decoration: none;
+ color: black;
+ background-color: rgb(245, 222, 222);
+ font-weight: normal;
+ border-radius: 5px;
+ padding: 2px;
+
+}
+/* section2 */
+.pro{
+    border:1px solid rgb(240, 238, 238);
+    border-radius: 10px;
+    width: 357px;
+}
+.pro:hover{
+    border:1px solid #fedb6a;
+    border-radius: 10px;
+}
+.pro1 p{
+    color: #4d5156;
+}
+.pro2 a{
+    text-decoration: none;
+    color: black;
+    background-color: #fedb6a;
+    padding: 10px 110px;
+    border-radius: 4px;
+    font-size: 18px;
+}
+.pro3 a{
+  text-decoration: none;
+  line-height: 1px;
+  color: black;
+  font-size: 13px;
+  font-weight: bold;
+}
+.pro1{
+    width: 350px
+}
+.pro1 h2{
+    font-size: 33px;
+    font-weight: bold;
+}
+.pro4{
+    background-color: #fdf2d6;
+}
+.pro5{
+    position: relative;
+}
+.pro6{
+    position: absolute;
+    top: 0;
+    left:170px;
+    display: block;
+}
+.pro6 p{
+    border-radius: 5px;
+    border: 1px solid #fff;
+    background-color: #fff;
+    padding: 2px 12px;
+    color: black;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.pro7 a{
+    text-decoration: none;
+    color: black;
+    background-color: #fff;
+    padding: 10px 110px;
+    border-radius: 4px;
+    font-size: 18px;
+    border: 1px solid #fedb6a;  
+}
+
+.pro7 a:hover{
+    background-color: #fedb6a;
+}
+
+/* section3 */
+
+.feature2 li{
+  list-style: none;
+  color: #4d5156;
+  margin: 18px 0;
+}
+.feature{
+ box-shadow:0 8px 8px 5px   rgba(25, 25, 25, 0.2) ; 
+ border-radius: 10px;  
+}
+.check4{
+  font-size: 18px;
+  color: #e1b72e; 
+  font-weight: bold; 
+}
+.check3{
+    font-weight: bold;
+    font-size: 18px;
+}
+.feature3 li{
+    list-style: none;
+}
+.feature3 li i{
+    background-color: rgb(36, 161, 72 );
+    color: #fff;
+    border: none;
+    font-size: 11px;
+    padding: 3px 3px;
+   
+}
+.check2{
+    position: relative;
+    background-color: #fdf2d6;
+    border-radius: 10px;
+   
+}
+.recommend{
+  position: absolute;
+  top: -10px;
+  left:90px;
+  font-size: 13px;
+}
+.feature4{
+    font-size: 30px;
+    list-style: none;
+    color: #828486;
+
+}
+.get a{
+  text-decoration: none;
+  background-color: #fedb6a;
+  border: 1px solid #fedb6a;
+  color: black;
+  padding: 7px 35px;
+  border-radius: 3px;
+  font-size: 18px;
+}
+.get1 a{
+    text-decoration: none;
+  background-color: #fedb6a;
+  border: 1px solid #fedb6a;
+  color: black;
+  padding: 7px 50px;
+  border-radius: 3px;
+  font-size: 18px; 
+}
+.get2 a{
+  text-decoration: none;
+  background-color: #fedb6a;
+  border: 1px solid #fedb6a;
+  color: black;
+  padding: 7px 42px;
+  border-radius: 3px;
+  font-size: 18px; 
+}
+
+/* section4 */
+
+.dis span{
+ margin-left:110px ;
+ color: rgb(95, 93, 93);
+ font-weight: bold;
+ font-size: 13px;
+}
+.dis{
+    color:#808081 ;
+    
+}
+.dis hr{
+    color: #efeded;
+}
+.discount-item{
+    line-height: .6;
+}
+.boy img{
+    width: 100%;
+    height: auto;
+}
+.boy1 a{
+ text-decoration: none;
+ color: black;
+ font-size: 18px;
+ 
+
+}
+.boy1 a:hover{
+    text-decoration: underline;
+}
+.dis2{
+    color: #80a43f;
+}
+
+.dis2 span{
+    margin-left:149px ;  
+    color: #80a43f;
+    font-weight: bold;
+    font-size: 13px;
+}
+.dis1 span{
+    margin-left:145px ;
+ color: rgb(95, 93, 93);
+ font-weight: bold;
+ font-size: 13px;
+}
+.dis1 {
+    color:rgb(95, 93, 93) ;
+}
+
+/* section6 */
+
+.pfizer img{
+filter: grayscale(1);
+opacity: .3;
+}
+.pfizer img:hover{
+    opacity: 100%;
+    filter: grayscale(0);
+}
+.pfizer1{
+    padding: 20px 90px;
+}
+.TRUSTED h6{
+ color: #b0b0b1;
+}
+
+/* section7 */
+
+.Frequently p{
+  font-size: 18px;
+}
+.Frequently p a{
+    color: black;
+}
+
+.accordion{
+ width: 100%;
+}
+.accordion li{
+    list-style: none;
+    width: 100%;
+    margin:  0 20px;
+    padding:0 10px;
+    
+}
+.accordion li label{
+    display: flex;
+    align-items: center;
+    padding: 5px 10px;
+    font-weight: 500;
+    font-size: 22px;
+}
+.label::before{
+    content: '';
+    font-size: 22px;
+    font-weight: 500;
+    
+}
+input[type="radio"]{
+    display: none;
+}
+.accordion .content{
+    color: #7b7979;
+    padding: 0 10px;
+    overflow: hidden;
+    max-height: 0;
+    line-height: 26px;
+    transition: max-height 0.5s, padding 0.5s;
+    
+}
+.accordion input [type="radio"]:checked + label + .content{
+    max-height: 400px;
+    padding: 10px 10px 20px;
+}
